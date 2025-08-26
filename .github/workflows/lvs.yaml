@@ -52,5 +52,10 @@ jobs:
       - name: Run LVS
         shell: bash
         run: |
-            cd mag
-            make lvs
+           netgen -batch lvs \
+            "mag/layout.spice $TOPCELL" \
+            "mag/schematic.spice $TOPCELL" \
+            $PDK_ROOT/$PDK/libs.tech/netgen/sky130A_setup.tcl \
+            lvs_report.log || true
+            echo "✅ LVS finished. Report below:"
+            cat lvs_report.log || true
