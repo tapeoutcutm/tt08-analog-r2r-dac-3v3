@@ -1,8 +1,8 @@
 # Tiny Tapeout project information
 project:
   title:        "Analog 8 bit 3.3v R2R DAC"      # Project title
-  author:       "Matt Venn"      # Your name
-  discord:      "mattvenn"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  author:       "Matt Venn_cutm"      # Your name
+  discord:      "tapeoutcutm"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "A simple 8 bit DAC with a sine waveform driver and 3.3v output"      # One line description of what your project does
   language:     "Analog" # other examples include Verilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
