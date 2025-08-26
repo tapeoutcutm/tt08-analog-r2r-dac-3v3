@@ -2,7 +2,7 @@
 
 // just a stub to keep the Tiny Tapeout tools happy
 
-module dac_test_3v3 (
+module tt_um_dac_test3v3 (
     input  wire       VGND,
     input  wire       VDPWR,    // 1v8
     input  wire       VAPWR,    // 3v3
