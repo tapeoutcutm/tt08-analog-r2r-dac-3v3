@@ -2,9 +2,9 @@ VERSION 5.7 ;
   NOWIREEXTENSIONATPIN ON ;
   DIVIDERCHAR "/" ;
   BUSBITCHARS "[]" ;
-MACRO tt_um_dac_test3v3
+MACRO tt_um_dacr2r_test3v3
   CLASS BLOCK ;
-  FOREIGN tt_um_dac_test3v3 ;
+  FOREIGN tt_um_dacr2r_test3v3 ;
   ORIGIN 0.000 0.000 ;
   SIZE 145.360 BY 225.760 ;
   PIN clk
